@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  solana-agent:
+    build: .
+    container_name: ace-solana-agent
+    volumes:
+      - .env:/app/.env
+    restart: "no" # Se ejecuta como una tarea programada (cronjob) o bajo demanda
