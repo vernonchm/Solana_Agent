@@ -13,14 +13,16 @@ Every cycle of the agent is fully verified, cryptographically signed, and record
 *   **🔑 Agent Wallet Public Key:** `J594Mae778NkNCuUmLdHzmNruaszTRno5DzANoBVx7ah`
 *   **🛡️ Sentinel Code Integrity Hash (SHA-256):** `1c05a80e193938d8cf51498eca89ba06df9c0b1af4118b54af0b60597f3e823d`
 *   **📝 Synapse Agent Protocol (SAP) Identity Registration:**
-    [View SAP Tx on Solana Explorer](https://explorer.solana.com/tx/65Hdvsp4iVuFeyhiciKH4XGEDxTUHrjBWkHcPuLzNddFAct6ReoNtcWbTPE3N2SG53kBWmu4vaSCABHDL6ijkE36?cluster=devnet)
-    `Signature: 65Hdvsp4iVuFeyhiciKH4XGEDxTUHrjBWkHcPuLzNddFAct6ReoNtcWbTPE3N2SG53kBWmu4vaSCABHDL6ijkE36`
+    [View SAP Tx on Solana Explorer](https://explorer.solana.com/tx/vApbEXjyao1dZ5z7hNiWuzo83C6gwpogPkuBsB3jt4TZBELTmvu5chyabHfL3oUJdZ1kbvtUUN11YpZPjQUCS22?cluster=devnet)
+    `Signature: vApbEXjyao1dZ5z7hNiWuzo83C6gwpogPkuBsB3jt4TZBELTmvu5chyabHfL3oUJdZ1kbvtUUN11YpZPjQUCS22`
 *   **🎨 Metaplex NFT Digital Asset Minting:**
-    [View NFT Mint Tx on Solana Explorer](https://explorer.solana.com/tx/4WP5CBPGTuGUAS6ZtGTRt8UD7YnNgG8Sy9oA3WcnA8VC1a6MwvbcsLfPgScaoMdmoKd5rLMULxqn7KfCq1FidiFb?cluster=devnet)
-    `Signature: 4WP5CBPGTuGUAS6ZtGTRt8UD7YnNgG8Sy9oA3WcnA8VC1a6MwvbcsLfPgScaoMdmoKd5rLMULxqn7KfCq1FidiFb`
+    [View NFT Mint Tx on Solana Explorer](https://explorer.solana.com/tx/3v8cjHSYz5YpMn1N8kZJ5DePHZcKNnUiKfYvxVVZPUhWKwzJQEAHTLWuPAU4qHvMkPYGk6XgiN2GRpKJy3Y3o3oZ?cluster=devnet)
+    `Signature: 3v8cjHSYz5YpMn1N8kZJ5DePHZcKNnUiKfYvxVVZPUhWKwzJQEAHTLWuPAU4qHvMkPYGk6XgiN2GRpKJy3Y3o3oZ`
 *   **💸 x402 Micropayment Clearing (Sent to Payment Vault):**
-    [View Micropayment Tx on Solana Explorer](https://explorer.solana.com/tx/2nELZK4BB77PG3J9DzWACVSBxdpx78iJYbGSY5TDeLzxFRWtAhYWANeS954WEQqPLvSK3qijYM3n8i2VDNYALNgK?cluster=devnet)
-    `Signature: 2nELZK4BB77PG3J9DzWACVSBxdpx78iJYbGSY5TDeLzxFRWtAhYWANeS954WEQqPLvSK3qijYM3n8i2VDNYALNgK`
+    [View Micropayment Tx on Solana Explorer](https://explorer.solana.com/tx/2rr3eyRxAMvnHwR41YgA2yAkyc4S9nzu6iHCPtwXez9bpjHftfJdZYiSLonCB5ahgz7G9tg2Wgo7XjYJNUfsKmT1?cluster=devnet)
+    `Signature: 2rr3eyRxAMvnHwR41YgA2yAkyc4S9nzu6iHCPtwXez9bpjHftfJdZYiSLonCB5ahgz7G9tg2Wgo7XjYJNUfsKmT1`
+*   **🖼️ Real Generated Artwork Asset (WebP hosted on CDN):**
+    [View Generated Artwork](https://storage.fonedis.cc/cdn/20260518/f0014eec8926b98d3f6564ab6806a8.webp)
 
 ---
 
@@ -42,7 +44,7 @@ graph TD
 The agent leverages Ace Data Cloud's premium HTTP proxies to securely poll community sentiment and crypto trends on-chain, keeping its prompt generator aligned with hot market concepts without risking IP censorship.
 
 ### 2. Concept Generator & Image Rendering (Ace Data Cloud AI)
-The agent consumes the **AI Q&A Engine (GPT-4o-mini)** to translate raw social trends into deep philosophical stoic art descriptions. It then feeds the description directly to the **AI Image Generation (DALL-E-3 / Flux)** API to render a breathtaking visual artwork asset.
+The agent consumes the **AI Q&A Engine (GPT-4o-mini)** to translate raw social trends into deep philosophical stoic art descriptions. It then feeds the description directly to the **AI Image Generation (DALL-E-3)** API to render a breathtaking visual artwork asset.
 
 ### 3. Cyberdefense Audit (Synapse Sentinel)
 Prior to engaging with blockchain transactions, the agent computes the SHA-256 signature of its own running code and submits a security payload to **Synapse Sentinel**, verifying that its host environment is clean and hasn't been tampered with.
@@ -96,7 +98,7 @@ To make the agent run 100% autonomously in the cloud (e.g. hourly):
 ## 🏆 Bounty Criteria Checklist
 
 ### General Volume & General Payment Track (OOBE)
-*   [x] **SAP Mainnet/Devnet Registration:** Completed on-chain ([Tx Signature](https://explorer.solana.com/tx/65Hdvsp4iVuFeyhiciKH4XGEDxTUHrjBWkHcPuLzNddFAct6ReoNtcWbTPE3N2SG53kBWmu4vaSCABHDL6ijkE36?cluster=devnet)).
+*   [x] **SAP Mainnet/Devnet Registration:** Completed on-chain ([Tx Signature](https://explorer.solana.com/tx/vApbEXjyao1dZ5z7hNiWuzo83C6gwpogPkuBsB3jt4TZBELTmvu5chyabHfL3oUJdZ1kbvtUUN11YpZPjQUCS22?cluster=devnet)).
 *   [x] **Fully Automated Flow:** Managed 24/7 via GCP crontab and docker orchestrator.
 *   [x] **Escrow/Vault Settlement:** Micropayment successfully routed to the Synapse/Ace Data vault.
 *   [x] **AI Capability:** Generates conceptual prompts and creates custom visual art assets.
